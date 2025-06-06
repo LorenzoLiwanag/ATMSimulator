@@ -15,7 +15,7 @@ class RegistrationMenu : IMenu
         Console.WriteLine("Enter your PIN");
         int pin = Convert.ToInt32(Console.ReadLine());
 
-        register(FirstName, LastName, pin, cardNumber);
+        register(FirstName, LastName, cardNumber, pin);
     }
 
     public void register(string FirstName, string LastName, int cardNumber, int pin)
